@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap');
+
+#contain{
+    width: 100vw;
+    height: 70px;
+    padding: 15px 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 128, 0, 0.192);
+}
+#rout{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    font-family: "Google Sans Code",monospace;
+    letter-spacing: 1.2px;
+    button{
+        padding: 5px 10px;
+        border-radius: 8px;
+        border: .5px solid rgba(18, 172, 95, 0.507);
+        font-size: 14px;
+        font-family: "Google Sans Code",monospace;
+        letter-spacing: 1.5px;
+        transition: 200ms;
+        cursor: pointer;
+    }
+    button:hover{
+        background: rgba(18, 172, 95, 0.726);
+        border: .5px solid rgba(18, 172, 95, 0.726);
+    }
+}
+@media (max-width:500px){
+    #rout{
+        button{
+            display: none;
+        }
+    }
+    #contain{
+        padding: 7px 20px;
+    }
+}
