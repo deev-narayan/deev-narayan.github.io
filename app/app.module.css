@@ -1,0 +1,31 @@
+#slidebar{
+    position: fixed;
+    bottom: 0;
+    right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    p{
+        position: relative;
+        left: 53%;
+        rotate: 90deg;
+        font-family: monospace;
+        opacity: .4;
+    }
+    div{
+        width: .1px;
+        height: 100px;
+        background: var(--background);
+    }
+    
+}
+@media (prefers-color-scheme: dark) {
+  #slidebar>div {
+    --background: #ffffff1a;
+  }
+}
+@media (prefers-color-scheme: light) {
+  #slidebar>div {
+    --background: #0000001c;
+  }
+}

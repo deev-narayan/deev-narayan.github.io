@@ -7,7 +7,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(0, 128, 0, 0.192);
+    border-bottom: 1px solid rgba(0, 128, 128, 0.062);
 }
 #rout{
     display: flex;
