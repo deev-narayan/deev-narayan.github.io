@@ -1,0 +1,68 @@
+#contain {
+    position: relative;
+    height: 100vh;
+    padding: 2rem;
+}
+#design{
+    position: relative;
+    top: -20%;
+    p{
+        margin-top: 6rem;
+        font-size: clamp(4rem, 18vw, 35rem);
+        font-family: Verdana;
+        opacity: .1;
+    }
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 1.75rem;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    position: absolute;
+    scrollbar-width: none;
+    width: 90vw;
+    height: 500px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid rgba(0, 128, 128, 0.052);
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(12px);
+}
+#card{
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 300px;
+    width: 450px;
+    height: 440px;
+    background: rgba(0, 128, 128, 0.046);
+    border: 1px solid rgba(36, 75, 59, 0.385);
+    border-radius: 14px;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+#btn{
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 2.75rem;
+    border-radius: 14px;
+    border: 1px solid rgba(59, 112, 83, 0.315);
+    p{
+        opacity: .8;
+    }
+    transition: 200ms;
+}
+#btn:hover{
+        background: rgba(13, 93, 53, 0.375);
+        border: .5px solid rgba(18, 172, 95, 0.726);
+    }

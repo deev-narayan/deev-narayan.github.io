@@ -1,7 +1,14 @@
 import React from 'react'
+import InfoPage from '../_component/info/page'
+import NavBar from '../_component/navbar/page'
+import style from './home.module.css'
 
-export default function page() {
+export default function HomeWel() {
   return (
-    <div>home</div>
+    <>
+    <div id={style.data}>
+      <InfoPage />
+    </div>
+    </>
   )
 }

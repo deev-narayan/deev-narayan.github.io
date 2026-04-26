@@ -1,0 +1,38 @@
+#contain{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    #design{
+        position: absolute;
+        top: 19%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        p{
+            font-size: clamp(6rem, 18vw, 35rem);
+            opacity: .089;
+            font-weight: 900;
+            font-family: Verdana;
+        }
+    }
+}
+#circle{
+    position: absolute;
+    top: 20%;
+    left: -12%;
+    border-radius: 100%;
+    height: clamp(200px, 50vw, 900px);
+    width: clamp(200px, 50vw, 900px);
+    background: radial-gradient(rgba(48, 122, 48, 0.236),transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    img{
+        position: absolute;
+        left: 24%;
+        height: 100%;
+        width: auto;
+        object-fit: contain;
+        opacity: 1;
+    }
+}

@@ -10,10 +10,9 @@ export default function NavBar() {
             <img src="./logo.png" alt="" className='h-8 w-8 object-contain'/>
         </div>
         <div id={style.rout}>
-            <Link href="/home">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/projects">Projects</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="#home">Home</Link>
+            <Link href="#about">About</Link>
+            <Link href="#projects">Projects</Link>
             <button>Resume</button>
         </div>
     </div>

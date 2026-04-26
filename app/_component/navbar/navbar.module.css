@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap');
 
 #contain{
+    position: fixed;
     width: 100vw;
     height: 70px;
     padding: 15px 40px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(0, 128, 128, 0.062);
+    background: linear-gradient(45deg,rgba(18, 172, 95, 0.021),transparent);
+    backdrop-filter: blur(15px);
 }
 #rout{
     display: flex;
